@@ -5,11 +5,6 @@ class JettyRunner < Formula
   sha256 "40549bd12c0b8818ad1c93e588d3482f9f110a182405684563f5d4e381958993"
   license any_of: ["Apache-2.0", "EPL-1.0"]
 
-  livecheck do
-    url "https://search.maven.org/remotecontent?filepath=org/eclipse/jetty/jetty-runner/maven-metadata.xml"
-    regex(%r{<version>v?(\d+(?:\.\d+)+(?:[._-]v?\d+)?)</version>}i)
-  end
-
   bottle do
     rebuild 1
     sha256 cellar: :any_skip_relocation, all: "09bbc60a77038dc30b859e15ef151f4766c8d301950fd5d8c55d7d57a31e7823"
@@ -17,6 +12,7 @@ class JettyRunner < Formula
 
   # See: https://github.com/jetty/jetty.project/issues/1905#issuecomment-409662335
   deprecate! date: "2018-08-02", because: :deprecated_upstream
+  disable! date: "2025-06-11", because: :deprecated_upstream
 
   depends_on "openjdk"
 
