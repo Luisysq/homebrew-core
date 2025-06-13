@@ -1,8 +1,8 @@
 class VulkanValidationlayers < Formula
   desc "Vulkan layers that enable developers to verify correct use of the Vulkan API"
   homepage "https://github.com/KhronosGroup/Vulkan-ValidationLayers"
-  url "https://github.com/KhronosGroup/Vulkan-ValidationLayers/archive/refs/tags/v1.4.317.tar.gz"
-  sha256 "c8af30a15d273ed68f2314cff1c0d506b30958b4e08bdfc3daff2e917043b951"
+  url "https://github.com/KhronosGroup/Vulkan-ValidationLayers/archive/refs/tags/v1.4.318.tar.gz"
+  sha256 "4a1244932fe3a24afc25c1f043055c8bf56f4553f3f52c7a1ddfafa501951de5"
   license "Apache-2.0"
   head "https://github.com/KhronosGroup/Vulkan-ValidationLayers.git", branch: "main"
 
