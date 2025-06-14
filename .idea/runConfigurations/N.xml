@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="N" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" singleton="true">
+    <texify-bibtex>
+      <compiler>BIBTEX</compiler>
+      <compiler-path />
+      <compiler-arguments>print</compiler-arguments>
+      <envs />
+      <main-file />
+      <aux-dir />
+      <latex-distribution>TEXLIVE</latex-distribution>
+    </texify-bibtex>
+    <method v="2" />
+  </configuration>
+</component>
